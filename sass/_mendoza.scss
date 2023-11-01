@@ -1,0 +1,60 @@
+#mainMendoza{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8e8e8;
+    height: 48.8em;
+}
+#mainMendoza h2{
+    color: #ffffff;
+    padding: .2em;
+    border-radius: .2em;
+    font-family: 'Anton', sans-serif;
+}
+.divDepaMendoza{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: .5em;
+    margin: 1em;
+    height: 25em;
+    width: 23em;
+    background: rgb(216, 216, 216);
+    border: 1px solid white;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.458);
+    border-radius: 1em;
+    &:hover{
+        border: 4px solid rgb(255, 255, 255);
+        transform: scale(1.05);
+        transition: 1s;
+    }
+    transition: 1s;
+}
+.articleMainMendoza{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}
+.articleMainMendoza h1{
+    color: #000000;
+    font-family: 'Oswald', sans-serif;
+    padding: .2em;
+}
+.lujan{
+    background-image: url(../img/lujan.png);
+    background-position: center;
+    background-size: 28em;
+}
+.capital{
+    background-image: url(../img/capital.png);
+    background-position: center;
+    background-size: 28em;
+}
+.sanrafael{
+    background-image: url(../img/san\ rafa.png);
+    background-position: center;
+    background-size: 28em;
+}

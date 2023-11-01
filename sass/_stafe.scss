@@ -1,0 +1,150 @@
+#mainStaFe{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+
+
+    background-color: #e8e8e8;
+}
+#mainStaFe h2{
+    color: #ffffff;
+    padding: .2em;
+    border-radius: .2em;
+    font-family: 'Anton', sans-serif;
+}
+.divDepaStaFe{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: .5em;
+    margin: 1em;
+    height: 25em;
+    width: 23em;
+    background: rgb(216, 216, 216);
+    border: 1px solid white;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.458);
+    border-radius: 1em;
+    &:hover{
+        border: 4px solid rgb(255, 255, 255);
+        transform: scale(1.05);
+        transition: 1s;
+    }
+    transition: 1s;
+}
+.GralLop{
+    background-image: url(../img/GENERAL_LOPEZ.png);
+    background-position: center;
+    background-size: 30em;
+}
+.Caseros{
+    background-image: url(../img/CASEROS.png);
+    background-position: center;
+    background-size: 30em;
+}
+.Sanjero{
+    background-image: url(../img/SANJERO.png);
+    background-position: center;
+    background-size: 33em;
+}
+.Const{
+    background-image: url(../img/CONST.png);
+    background-position: center;
+    background-size: 35em;
+}
+.Sanlo{
+    background-image: url(../img/SANLO.png);
+    background-position: center;
+    background-size: 35em;
+}
+.Ros{
+    background-image: url(../img/ROS.png);
+    background-position: center;
+    background-size: 35em;
+}
+
+
+
+
+// GENERAL LOPEZ ---------------------------------------------------------------------------------
+
+.imagen{
+    height: 15em;
+    width: 19.8em;
+    cursor: pointer; 
+}
+.h1Imagenes{
+    color: #000000;
+    position: absolute;
+    font-family: 'Anton', cursive;
+    z-index: 99;
+    font-size: 2.5em;
+    cursor: pointer;
+    background-color: #e8e8e820;
+    margin-top: .2em;
+}
+.divImg1{
+    display: flex;
+    justify-content: center;
+
+}
+.visible{
+    visibility: visible;
+}
+.oculto{
+    visibility: hidden;
+}
+
+
+
+.ArtDivFotos{
+    width: 100%;
+    height: 80vh;
+    display: flex;
+    justify-content: center;
+    z-index: 98;
+    position: absolute;
+    margin-top: 5em;
+
+}
+.DivdeFotos{
+    display: flex;
+    width: 80%;
+    background: linear-gradient(135deg, #eeeeee 0%, #a5a5a5 100%);
+    box-shadow: 0 0 0 100vmax #000000bf;
+    z-index: 99;
+}
+
+#MainGL{
+    display: grid;
+    grid-template-columns: repeat(6, 1fr);
+}
+.divDescripcionImg{
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    align-items: center;
+}
+.divDescripcionImg h1{
+    color: #000000;
+    font-family: 'Anton';
+}
+.divDescripcionImg h4{
+    color: #ffffff;
+    font-family: 'Tangerine', cursive;
+    font-size: 2.5em;
+}
+.Cruz{
+    height: 1.5em;
+    margin: .5em;
+    cursor: pointer;
+    &:hover{
+        opacity: .2;
+    }
+}
+.divDepaStaFe{
+    display:flex ;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 2em;
+}

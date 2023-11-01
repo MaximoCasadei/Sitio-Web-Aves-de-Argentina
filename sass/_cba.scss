@@ -1,0 +1,66 @@
+#mainCba{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    background-color: #e8e8e8;
+}
+#mainCba h2{
+    color: #ffffff;
+    padding: .2em;
+    border-radius: .2em;
+    font-family: 'Anton', sans-serif;
+}
+.divDepaCba{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: .5em;
+    margin: 1em;
+    height: 25em;
+    width: 23em;
+    background: rgb(216, 216, 216);
+    border: 1px solid white;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.458);
+    border-radius: 1em;
+    &:hover{
+        border: 4px solid rgb(255, 255, 255);
+        transform: scale(1.05);
+        transition: 1s;
+    }
+    transition: 1s;
+}
+.RioCuar{
+    background-image: url(../img/RIO4.png);
+    background-position: center;
+    background-size: 30em;
+}
+.Calamu{
+    background-image: url(../img/CALAMU.png);
+    background-position: center;
+    background-size: 30em;
+}
+.SanAl{
+    background-image: url(../img/SANALBE.png);
+    background-position: center;
+    background-size: 30em;
+}
+.TerArr{
+    background-image: url(../img/3ARR.png);
+    background-position: center;
+    background-size: 40em;
+}
+.Puni{
+    background-image: url(../img/PUNI.png);
+    background-position: center;
+    background-size: 35em;
+}
+.Union{
+    background-image: url(../img/UNION.png);
+    background-position: center;
+    background-size: 35em;
+}
+.MarJua{
+    background-image: url(../img/MARCOJUA.png);
+    background-position: center;
+    background-size: 35em;
+}

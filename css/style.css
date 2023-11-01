@@ -1,0 +1,762 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+.carousel {
+  width: 100%;
+  height: 47em;
+}
+
+.img1 {
+  width: 10em;
+  height: 53em;
+}
+
+.img2 {
+  width: 10em;
+  height: 53em;
+}
+
+.img3 {
+  width: 10em;
+  height: 53em;
+}
+
+.contentMenuYNombre {
+  z-index: 2;
+  position: fixed;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 0.5em;
+}
+
+.contentMenu {
+  display: flex;
+  align-items: flex-start;
+}
+
+.img3lineas {
+  width: 3em;
+  transition: 1s;
+}
+.img3lineas:hover {
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(227deg) brightness(109%) contrast(104%);
+  transition: 1s;
+  cursor: pointer;
+}
+
+.h3Menu {
+  width: 1em;
+  font-family: "Oswald", sans-serif;
+  color: black;
+  margin-left: -0.4em;
+}
+
+.h3Nombre {
+  width: 10em;
+  color: black;
+  margin-right: 0.5em;
+  margin-top: 0.1em;
+}
+
+.DivMenuGrande {
+  z-index: 3;
+  display: flex;
+  position: fixed;
+  height: 100%;
+  width: 15%;
+  background-color: #323232;
+  transform: translateX(-150%);
+}
+
+.sombra {
+  box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.7490196078);
+}
+
+.imgCruz {
+  width: 2em;
+  height: 2em;
+  margin: 1em;
+}
+.imgCruz:hover {
+  cursor: pointer;
+  filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(227deg) brightness(109%) contrast(104%);
+}
+
+.divCruz {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  width: 120%;
+  justify-content: end;
+}
+
+.divCosasMenu {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  width: 100%;
+  z-index: 99;
+}
+
+.divSeccionesMenu {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-bottom: 1px solid #1e1717;
+  width: 100%;
+  padding: 1em;
+  text-decoration: none;
+}
+.divSeccionesMenu:hover {
+  background-color: rgba(30, 23, 23, 0.3176470588);
+  cursor: pointer;
+}
+
+.divSeccionesMenu h1 {
+  color: #ffffff;
+  font-size: 1.3em;
+  font-family: "Roboto Condensed";
+}
+
+.logosTodos {
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  height: 100%;
+  gap: 1em;
+  padding: 1em;
+}
+
+.logoRedes {
+  width: 2em;
+  height: 2em;
+}
+.logoRedes:hover {
+  opacity: 0.5;
+}
+
+.logoYt {
+  width: 2.4em;
+  height: 1.8em;
+}
+
+.divLogos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#main {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  margin-top: 6em;
+  padding-top: 5em;
+  background-color: #e8e8e8;
+}
+
+.divProvincias {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  padding-top: 0.5em;
+  padding-bottom: 1em;
+  margin: 1em;
+  height: 25em;
+  width: 23em;
+  background: rgb(216, 216, 216);
+  border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.458);
+  border-radius: 1em;
+  transition: 1s;
+}
+.divProvincias:hover {
+  border: 4px solid rgb(255, 255, 255);
+  transform: scale(1.05);
+  transition: 1s;
+}
+
+.foteando1 {
+  width: 41em;
+  height: 24em;
+}
+
+.foteando2 {
+  width: 39em;
+  height: 24em;
+}
+
+.foteando3 {
+  width: 39em;
+  height: 24em;
+}
+
+.div3img {
+  display: flex;
+  justify-content: space-between;
+  overflow-x: hidden;
+}
+
+#main2 {
+  background-color: #323232;
+}
+
+.h1Sobremi {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.h1Sobremi h1 {
+  font-family: "Oswald", sans-serif;
+  color: #9d9d9d;
+}
+
+.h1Sobremi h2 {
+  font-family: "DM Sans", sans-serif;
+  color: #d2d2d2;
+  font-size: 1.4em;
+}
+
+.divFooter {
+  width: 100%;
+  height: 5em;
+  background-color: #1e1717;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+}
+
+.divFooter h3 {
+  font-size: 1em;
+  color: #d2d2d2;
+}
+
+.tdf {
+  background-image: url(../img/TIERRA_DEL_FUEGO.png);
+  background-position: center;
+  background-size: 35em;
+}
+
+.santaCruz {
+  background-image: url(../img/SANTA_CRUZ.png);
+  background-position: center;
+  background-size: 32em;
+}
+
+.santaFe {
+  background-image: url(../img/Santa\ fe\ Divisiones\ sin\ fondo.png);
+  background-position: center;
+  background-size: 28em;
+}
+
+.entrerios {
+  background-image: url(../img/ENTRE\ RIOS.png);
+  background-position: center;
+  background-size: 28em;
+}
+
+.mendoza {
+  background-image: url(../img/mapa\ mendoza.png);
+  background-position: center;
+  background-size: 28em;
+}
+
+.cordoba {
+  background-image: url(../img/Cordoba\ divisiones\ hechas.png);
+  background-position: center;
+  background-size: 28em;
+}
+
+.articleMain {
+  position: absolute;
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  margin-top: 6em;
+  background-color: #ffffff;
+}
+
+.articleMain h1 {
+  color: #000000;
+  font-family: "Oswald", sans-serif;
+  padding: 0.2em;
+}
+
+a {
+  text-decoration: none;
+  list-style: none;
+}
+
+#main h2 {
+  color: #ffffff;
+  padding: 0.2em;
+  border-radius: 0.2em;
+  font-family: "Anton", sans-serif;
+}
+
+.divColorNro {
+  display: flex;
+  gap: 1em;
+  justify-content: center;
+}
+
+.divColorNro h5 {
+  color: #000;
+}
+
+.h1Arg {
+  background-image: url(../img/bandera-argentina.png);
+  background-size: 6em;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#mainMendoza {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e8e8e8;
+  height: 48.8em;
+}
+
+#mainMendoza h2 {
+  color: #ffffff;
+  padding: 0.2em;
+  border-radius: 0.2em;
+  font-family: "Anton", sans-serif;
+}
+
+.divDepaMendoza {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 0.5em;
+  margin: 1em;
+  height: 25em;
+  width: 23em;
+  background: rgb(216, 216, 216);
+  border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.458);
+  border-radius: 1em;
+  transition: 1s;
+}
+.divDepaMendoza:hover {
+  border: 4px solid rgb(255, 255, 255);
+  transform: scale(1.05);
+  transition: 1s;
+}
+
+.articleMainMendoza {
+  display: flex;
+  width: 100%;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+
+.articleMainMendoza h1 {
+  color: #000000;
+  font-family: "Oswald", sans-serif;
+  padding: 0.2em;
+}
+
+.lujan {
+  background-image: url(../img/lujan.png);
+  background-position: center;
+  background-size: 28em;
+}
+
+.capital {
+  background-image: url(../img/capital.png);
+  background-position: center;
+  background-size: 28em;
+}
+
+.sanrafael {
+  background-image: url(../img/san\ rafa.png);
+  background-position: center;
+  background-size: 28em;
+}
+
+#mainSantacruz {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e8e8e8;
+  height: 48.8em;
+}
+
+.lagoAr {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 0.5em;
+  margin: 1em;
+  height: 25em;
+  width: 23em;
+  background: rgb(216, 216, 216);
+  border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.458);
+  border-radius: 1em;
+  transition: 1s;
+  background-image: url(../img/lagoAr.png);
+  background-position: left;
+  background-size: 28em;
+}
+.lagoAr:hover {
+  border: 4px solid rgb(255, 255, 255);
+  transform: scale(1.05);
+  transition: 1s;
+}
+
+#mainSantacruz h2 {
+  color: #ffffff;
+  padding: 0.2em;
+  border-radius: 0.2em;
+  font-family: "Anton", sans-serif;
+}
+
+#mainTdf {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e8e8e8;
+  height: 48.8em;
+}
+
+#mainTdf h2 {
+  color: #ffffff;
+  padding: 0.2em;
+  border-radius: 0.2em;
+  font-family: "Anton", sans-serif;
+}
+
+.TDF {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 0.5em;
+  margin: 1em;
+  height: 25em;
+  width: 23em;
+  background: rgb(216, 216, 216);
+  border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.458);
+  border-radius: 1em;
+  transition: 1s;
+  background-image: url(../img/usu\ solo.png);
+  background-position: center;
+  background-size: 28em;
+}
+.TDF:hover {
+  border: 4px solid rgb(255, 255, 255);
+  transform: scale(1.05);
+  transition: 1s;
+}
+
+#mainStaFe {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #e8e8e8;
+}
+
+#mainStaFe h2 {
+  color: #ffffff;
+  padding: 0.2em;
+  border-radius: 0.2em;
+  font-family: "Anton", sans-serif;
+}
+
+.divDepaStaFe {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 0.5em;
+  margin: 1em;
+  height: 25em;
+  width: 23em;
+  background: rgb(216, 216, 216);
+  border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.458);
+  border-radius: 1em;
+  transition: 1s;
+}
+.divDepaStaFe:hover {
+  border: 4px solid rgb(255, 255, 255);
+  transform: scale(1.05);
+  transition: 1s;
+}
+
+.GralLop {
+  background-image: url(../img/GENERAL_LOPEZ.png);
+  background-position: center;
+  background-size: 30em;
+}
+
+.Caseros {
+  background-image: url(../img/CASEROS.png);
+  background-position: center;
+  background-size: 30em;
+}
+
+.Sanjero {
+  background-image: url(../img/SANJERO.png);
+  background-position: center;
+  background-size: 33em;
+}
+
+.Const {
+  background-image: url(../img/CONST.png);
+  background-position: center;
+  background-size: 35em;
+}
+
+.Sanlo {
+  background-image: url(../img/SANLO.png);
+  background-position: center;
+  background-size: 35em;
+}
+
+.Ros {
+  background-image: url(../img/ROS.png);
+  background-position: center;
+  background-size: 35em;
+}
+
+.imagen {
+  height: 15em;
+  width: 19.8em;
+  cursor: pointer;
+}
+
+.h1Imagenes {
+  color: #000000;
+  position: absolute;
+  font-family: "Anton", cursive;
+  z-index: 99;
+  font-size: 2.5em;
+  cursor: pointer;
+  background-color: rgba(232, 232, 232, 0.1254901961);
+  margin-top: 0.2em;
+}
+
+.divImg1 {
+  display: flex;
+  justify-content: center;
+}
+
+.visible {
+  visibility: visible;
+}
+
+.oculto {
+  visibility: hidden;
+}
+
+.ArtDivFotos {
+  width: 100%;
+  height: 80vh;
+  display: flex;
+  justify-content: center;
+  z-index: 98;
+  position: absolute;
+  margin-top: 5em;
+}
+
+.DivdeFotos {
+  display: flex;
+  width: 80%;
+  background: linear-gradient(135deg, #eeeeee 0%, #a5a5a5 100%);
+  box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.7490196078);
+  z-index: 99;
+}
+
+#MainGL {
+  display: grid;
+  grid-template-columns: repeat(6, 1fr);
+}
+
+.divDescripcionImg {
+  display: flex;
+  width: 100%;
+  flex-direction: column;
+  align-items: center;
+}
+
+.divDescripcionImg h1 {
+  color: #000000;
+  font-family: "Anton";
+}
+
+.divDescripcionImg h4 {
+  color: #ffffff;
+  font-family: "Tangerine", cursive;
+  font-size: 2.5em;
+}
+
+.Cruz {
+  height: 1.5em;
+  margin: 0.5em;
+  cursor: pointer;
+}
+.Cruz:hover {
+  opacity: 0.2;
+}
+
+.divDepaStaFe {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  padding-bottom: 2em;
+}
+
+#mainCba {
+  display: grid;
+  justify-items: center;
+  grid-template-columns: repeat(3, 1fr);
+  background-color: #e8e8e8;
+}
+
+#mainCba h2 {
+  color: #ffffff;
+  padding: 0.2em;
+  border-radius: 0.2em;
+  font-family: "Anton", sans-serif;
+}
+
+.divDepaCba {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 0.5em;
+  margin: 1em;
+  height: 25em;
+  width: 23em;
+  background: rgb(216, 216, 216);
+  border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.458);
+  border-radius: 1em;
+  transition: 1s;
+}
+.divDepaCba:hover {
+  border: 4px solid rgb(255, 255, 255);
+  transform: scale(1.05);
+  transition: 1s;
+}
+
+.RioCuar {
+  background-image: url(../img/RIO4.png);
+  background-position: center;
+  background-size: 30em;
+}
+
+.Calamu {
+  background-image: url(../img/CALAMU.png);
+  background-position: center;
+  background-size: 30em;
+}
+
+.SanAl {
+  background-image: url(../img/SANALBE.png);
+  background-position: center;
+  background-size: 30em;
+}
+
+.TerArr {
+  background-image: url(../img/3ARR.png);
+  background-position: center;
+  background-size: 40em;
+}
+
+.Puni {
+  background-image: url(../img/PUNI.png);
+  background-position: center;
+  background-size: 35em;
+}
+
+.Union {
+  background-image: url(../img/UNION.png);
+  background-position: center;
+  background-size: 35em;
+}
+
+.MarJua {
+  background-image: url(../img/MARCOJUA.png);
+  background-position: center;
+  background-size: 35em;
+}
+
+#mainER {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #e8e8e8;
+  height: 48.8em;
+}
+
+#mainER h2 {
+  color: #ffffff;
+  padding: 0.2em;
+  border-radius: 0.2em;
+  font-family: "Anton", sans-serif;
+}
+
+.divDepaER {
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+  padding-top: 0.5em;
+  margin: 1em;
+  height: 25em;
+  width: 23em;
+  background: rgb(216, 216, 216);
+  border: 1px solid white;
+  box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.458);
+  border-radius: 1em;
+  transition: 1s;
+}
+.divDepaER:hover {
+  border: 4px solid rgb(255, 255, 255);
+  transform: scale(1.05);
+  transition: 1s;
+}
+
+.Vic {
+  background-image: url(../img/VIC.png);
+  background-position: center;
+  background-size: 30em;
+}
+
+.Guale {
+  background-image: url(../img/GUALE.png);
+  background-position: center;
+  background-size: 30em;
+}
+
+.Diam {
+  background-image: url(../img/DIAMON.png);
+  background-position: center;
+  background-size: 30em;
+}
+
+/*# sourceMappingURL=style.css.map */

@@ -1,0 +1,289 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+.carousel{
+    width: 100%;
+    height: 47em;
+}
+.img1{
+    width: 10em;
+    height: 53em;
+}
+.img2{
+    width: 10em;
+    height: 53em;
+}
+.img3{
+    width: 10em;
+    height: 53em;
+}
+.contentMenuYNombre{
+    z-index: 2;
+    position: fixed;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin-top: .5em;
+}
+.contentMenu{
+    display: flex;
+    align-items: flex-start;
+}
+.img3lineas{
+    width: 3em;
+    &:hover{
+        filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(227deg) brightness(109%) contrast(104%);
+        transition: 1s;
+        cursor: pointer;
+    }
+    transition: 1s;
+}
+.h3Menu{
+    width: 1em;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+    margin-left: -.4em;
+}
+.h3Nombre{
+    width: 10em;
+    color: black;
+    margin-right: .5em;
+    margin-top: .1em;
+}
+.DivMenuGrande{
+    z-index: 3;
+    display: flex;
+    position: fixed;
+    height: 100%;
+    width: 15%;
+    background-color: #323232;
+    transform: translateX(-150%);
+}
+.sombra{
+    box-shadow: 0 0 0 100vmax #000000bf;
+}
+.imgCruz{
+    width: 2em;
+    height: 2em;
+    margin: 1em;
+    &:hover{
+        cursor: pointer;
+        filter: invert(100%) sepia(0%) saturate(7500%) hue-rotate(227deg) brightness(109%) contrast(104%);
+    }
+}
+.divCruz{
+    display: flex;
+    align-items: center;
+    position: absolute;
+    width: 120%;
+    justify-content: end;
+}
+.divCosasMenu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    width: 100%;
+    z-index: 99;
+}
+.divSeccionesMenu{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-bottom: 1px solid #1e1717;
+    width: 100%;
+    padding: 1em;
+    &:hover{
+        
+        background-color: #1e171751;
+        cursor: pointer;
+    }
+    text-decoration: none;
+}
+.divSeccionesMenu h1{
+    color: #ffffff;
+    font-size: 1.3em;
+    font-family: 'Roboto Condensed';
+}
+.logosTodos{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;
+    height: 100%;
+    gap: 1em;
+    padding: 1em;
+    
+}
+.logoRedes{
+    width: 2em;
+    height: 2em;
+    &:hover{
+        opacity:.5 ;
+    }
+}
+.logoYt{
+    width: 2.4em;
+    height: 1.8em;
+}
+.divLogos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+#main{
+    display: grid;
+    justify-items: center;
+    grid-template-columns: repeat(3, 1fr);
+    margin-top: 6em;
+    padding-top: 5em;
+    background-color: #e8e8e8;
+}
+.divProvincias{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: .5em;
+    padding-bottom: 1em;
+    margin: 1em;
+    height: 25em;
+    width: 23em;
+    background: rgb(216, 216, 216);
+    border: 1px solid white;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.458);
+    border-radius: 1em;
+    &:hover{
+        border: 4px solid rgb(255, 255, 255);
+        transform: scale(1.05);
+        transition: 1s;
+    }
+    transition: 1s;
+}
+
+
+.foteando1{
+    width: 41em;
+    height: 24em;
+}
+.foteando2{
+    width: 39em;
+    height: 24em;
+}
+.foteando3{
+    width: 39em;
+    height: 24em;
+}
+.div3img{
+    display: flex;
+    justify-content: space-between;
+    overflow-x: hidden;
+}
+#main2{
+    background-color: #323232;
+}
+.h1Sobremi{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.h1Sobremi h1{
+    font-family: 'Oswald', sans-serif;
+    color: #9d9d9d;
+}
+.h1Sobremi h2{
+    font-family: 'DM Sans', sans-serif;
+    color: #d2d2d2;
+    font-size: 1.4em;
+}
+.divFooter{
+    width:100%;
+    height: 5em;
+    background-color: #1e1717;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 1em;
+}
+.divFooter h3{
+    font-size: 1em;
+    color: #d2d2d2;
+}
+.tdf{
+    background-image: url(../img/TIERRA_DEL_FUEGO.png);
+    background-position: center;
+    background-size: 35em;
+}
+.santaCruz{
+    background-image: url(../img/SANTA_CRUZ.png);
+    background-position: center;
+    background-size: 32em;
+
+}
+.santaFe{
+    background-image: url(../img/Santa\ fe\ Divisiones\ sin\ fondo.png);
+    background-position: center;
+    background-size: 28em;
+
+}
+.entrerios{
+    background-image: url(../img/ENTRE\ RIOS.png);
+    background-position: center;
+    background-size: 28em;
+}
+.mendoza{
+    background-image: url(../img/mapa\ mendoza.png);
+    background-position: center;
+    background-size: 28em;
+}
+.cordoba{
+    background-image: url(../img/Cordoba\ divisiones\ hechas.png);
+    background-position: center;
+    background-size: 28em;
+
+}
+.articleMain{
+    position: absolute;
+    display: flex;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    margin-top: 6em;
+    background-color: #ffffff;
+}
+.articleMain h1{
+    color: #000000;
+    font-family: 'Oswald', sans-serif;
+    padding: .2em;
+}
+a{
+    text-decoration: none;
+    list-style: none;
+}
+#main h2{
+    color: #ffffff;
+
+    padding: .2em;
+    border-radius: .2em;
+    font-family: 'Anton', sans-serif;
+}
+.divColorNro{
+    display: flex;
+    gap: 1em;
+    justify-content: center;
+}
+.divColorNro h5{
+    color: #000;
+}
+.h1Arg{
+    background-image: url(../img/bandera-argentina.png);
+    background-size: 6em;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}

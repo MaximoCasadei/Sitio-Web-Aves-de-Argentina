@@ -1,0 +1,48 @@
+#mainER{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #e8e8e8;
+    height: 48.8em;
+}
+#mainER h2{
+    color: #ffffff;
+    padding: .2em;
+    border-radius: .2em;
+    font-family: 'Anton', sans-serif;
+}
+.divDepaER{
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    padding-top: .5em;
+    margin: 1em;
+    height: 25em;
+    width: 23em;
+    background: rgb(216, 216, 216);
+    border: 1px solid white;
+    box-shadow: 12px 17px 51px rgba(0, 0, 0, 0.458);
+    border-radius: 1em;
+    &:hover{
+        border: 4px solid rgb(255, 255, 255);
+        transform: scale(1.05);
+        transition: 1s;
+    }
+    transition: 1s;
+}
+.Vic{
+    background-image: url(../img/VIC.png);
+    background-position: center;
+    background-size: 30em;
+}
+.Guale{
+    background-image: url(../img/GUALE.png);
+    background-position: center;
+    background-size: 30em;
+}
+.Diam{
+    background-image: url(../img/DIAMON.png);
+    background-position: center;
+    background-size: 30em;
+}
