@@ -587,6 +587,7 @@ a {
   background: linear-gradient(135deg, #eeeeee 0%, #a5a5a5 100%);
   box-shadow: 0 0 0 100vmax rgba(0, 0, 0, 0.7490196078);
   z-index: 99;
+  position: fixed;
 }
 
 #MainGL {
@@ -616,6 +617,8 @@ a {
   height: 1.5em;
   margin: 0.5em;
   cursor: pointer;
+  position: fixed;
+  z-index: 99;
 }
 .Cruz:hover {
   opacity: 0.2;
@@ -627,6 +630,11 @@ a {
   align-items: center;
   justify-content: space-between;
   padding-bottom: 2em;
+}
+
+.fotoDentroDiv {
+  height: 50em;
+  width: 75em;
 }
 
 #mainCba {
